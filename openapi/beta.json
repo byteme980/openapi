@@ -856,7 +856,7 @@
       "post": {
         "operationId": "create_campaign_clone",
         "summary": "Create Campaign Clone",
-        "description": "Clones an existing campaign, returning a new campaign based on the original with a new ID and name.<br><br>*Rate limits*:<br>Burst: `10/s`<br>Steady: `150/m`\n\n**Scopes:**\n`Campaigns Write`",
+        "description": "Clones an existing campaign, returning a new campaign based on the original with a new ID and name.<br><br>*Rate limits*:<br>Burst: `10/s`<br>Steady: `150/m`\n\n**Scopes:**\n`Campaigns Read`\n`Campaigns Write`",
         "parameters": [
           {
             "name": "revision",
